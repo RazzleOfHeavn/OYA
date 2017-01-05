@@ -32,7 +32,12 @@ a{
 em ,i{
 	font-style:normal;
 }
-
+.border{
+	height:1px;
+	width:100%;
+	background:#666;
+	transform:scaleY(0.5);
+}
 
 .focus{ 
     width:100%; 

@@ -93,6 +93,49 @@
   top: 48px;
   margin-bottom: 54px;
   background: #f1f5f6; }
+  #content2 .user {
+    width: 100%;
+    height: 105px;
+    margin-top: 10px;
+    background: #fff;
+    font-size: 13px; }
+    #content2 .user .top {
+      width: 100%;
+      height: 41px;
+      padding: 0 10px;
+      line-height: 42px; }
+      #content2 .user .top span:nth-child(1) {
+        width: 50%;
+        float: left; }
+        #content2 .user .top span:nth-child(1) img {
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          margin-right: 10px; }
+      #content2 .user .top span:nth-child(2) {
+        width: 50%;
+        float: right;
+        color: #aaa;
+        text-align: right; }
+    #content2 .user .bottom {
+      width: 100%;
+      height: 63px;
+      padding: 0 10px; }
+      #content2 .user .bottom span {
+        display: block;
+        width: 100%; }
+      #content2 .user .bottom span:nth-child(1) {
+        height: 18px;
+        line-height: 18px; }
+      #content2 .user .bottom span:nth-child(2) {
+        height: 28px;
+        padding: 5px 0;
+        line-height: 20px; }
+      #content2 .user .bottom span:nth-child(3) {
+        height: 17px;
+        font-size: 9px;
+        color: #aaa;
+        line-height: 17px; }
 
 #footer {
   width: 100%;
@@ -100,11 +143,6 @@
   position: fixed;
   background: #fff;
   bottom: 0; }
-  #footer #border {
-    height: 1px;
-    width: 100%;
-    background: #000;
-    transform: scaleY(0.5); }
   #footer ul li {
     float: left;
     height: 54px;
@@ -127,3 +165,6 @@
     background: #8E488E; }
     #footer ul li:nth-child(3) a {
       color: #fff; }
+
+.n {
+  display: none; }

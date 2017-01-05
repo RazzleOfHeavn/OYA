@@ -1,19 +1,5 @@
 //懒加载
-// var lazyLoading = function(opts){
-// 	var _default = {
-// 		url:"",
-// 	}
-// 	var $this = this;
-// 	var $this.opts = $extend(_default,opts);
-// 	var getData = function(){
-// 		$.get($this.opts.url+"?_="+Math.random(),function(_response){
-// 			$this.opts.data = typeof _response == 'string'?JSON.parse(_response):_response;
-// 		})
-// 	}
-// 	var createHtml = function(){
-		
-// 	}
-// }
+
 
 
 //轮播图
