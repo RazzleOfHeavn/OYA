@@ -6,6 +6,9 @@ body, p, input, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, form {
   vertical-align: middle;
   font-weight: normal; }
 
+a:hover {
+  text-decoration: none; }
+
 img {
   border: 0;
   margin: 0;
