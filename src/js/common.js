@@ -1,7 +1,7 @@
 //懒加载
 
 
-
+$(function(){
 //轮播图
 TouchSlide({ 
 	slideCell:"#focus",
@@ -12,3 +12,17 @@ TouchSlide({
 	autoPage:true, //自动分页
 	switchLoad:"_src" //切换加载，真实图片路径为"_src" 
 });
+
+//分类按钮
+
+	$("#header .fenlei").on("touchstart",function(event){
+		event.stopImmediatePropagation();
+		$("#header .fenleiBox").removeClass("n");
+		$("#header .fenleiBox").on("touchstart",function(event){
+			event.stopImmediatePropagation();
+		})
+	});
+	$(document).on("touchstart",function(){
+		$("#header .fenleiBox").addClass("n");
+	})
+})

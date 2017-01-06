@@ -83,3 +83,6 @@ em, i {
       height: 200px; }
     .focus .bd li a {
       -webkit-tap-highlight-color: transparent; }
+
+.n {
+  display: none; }

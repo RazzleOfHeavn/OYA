@@ -9,7 +9,9 @@ $(function(){
 			$("#content"+index+"").removeClass("n").siblings("#content"+a+"").addClass("n");
 			console.log($("#content"+index+1+""));
 		} else {
+			//评论与详情tab切换
 			$("#content"+index+"").removeClass("n").siblings("#content"+b+"").addClass("n");
+			//评论页懒加载
 			var opts = {
 				url:"../data/apraise.txt",
 				cloneSize:6,
@@ -28,9 +30,6 @@ $(function(){
 			})
 		}
 	});
-
-
-
 	
 })
 var lazyLoading = function(opts){

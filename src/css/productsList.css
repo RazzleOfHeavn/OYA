@@ -1,0 +1,111 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  background: #8E488E;
+  z-index: 10; }
+  #header a {
+    color: #fff;
+    line-height: 48px; }
+  #header p {
+    position: absolute;
+    height: 100%;
+    right: 40px;
+    left: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 48px; }
+  #header > a {
+    position: absolute;
+    left: 10px; }
+    #header > a i {
+      font-size: 24px; }
+  #header .fenlei {
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    line-height: 48px; }
+    #header .fenlei i {
+      color: #fff;
+      font-size: 22px; }
+  #header .fenleiBox {
+    width: 124px;
+    height: 152px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    position: absolute;
+    top: 58px;
+    right: 6px;
+    background: #666;
+    opacity: 0.8; }
+    #header .fenleiBox li {
+      width: 100%;
+      height: 38px;
+      line-height: 38px;
+      border-bottom: 1px solid #ccc;
+      padding-left: 36px;
+      font-size: 12px; }
+      #header .fenleiBox li a {
+        color: #fff; }
+    #header .fenleiBox li:last-child {
+      border: none; }
+    #header .fenleiBox i {
+      position: absolute;
+      top: -25px;
+      right: 4px;
+      font-size: 22px;
+      color: #666; }
+
+#content {
+  width: 100%;
+  position: absolute;
+  top: 48px;
+  margin-bottom: 54px;
+  background: #f1f5f6; }
+  #content .category {
+    width: 100%;
+    height: 48px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px; }
+    #content .category li {
+      float: left;
+      width: 33.3%;
+      border-right: 1px solid #ccc;
+      height: 28px;
+      text-align: center;
+      line-height: 28px; }
+      #content .category li i {
+        padding-left: 5px;
+        font-size: 10px; }
+    #content .category li:last-child {
+      border: none; }
+
+#footer {
+  width: 100%;
+  height: 54px;
+  position: fixed;
+  background: #fff;
+  bottom: 0; }
+  #footer li {
+    width: 25%;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    height: 54px;
+    position: relative; }
+    #footer li a {
+      color: #666; }
+      #footer li a :hover {
+        text-decoration: none; }
+      #footer li a i {
+        font-size: 26px;
+        display: block;
+        height: 30px;
+        line-height: 30px; }
+      #footer li a span {
+        display: block;
+        line-height: 12px; }
