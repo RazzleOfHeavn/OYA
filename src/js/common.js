@@ -1,6 +1,3 @@
-//懒加载
-
-
 $(function(){
 //轮播图
 TouchSlide({ 
